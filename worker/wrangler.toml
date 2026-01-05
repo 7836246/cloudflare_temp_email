@@ -153,3 +153,8 @@ database_id = "xxx"
 # [[services]]
 # binding = "AUTH_INBOX"
 # service = "auth-inbox"
+
+[assets]
+directory = "../frontend/dist/"
+binding = "ASSETS"
+run_worker_first = true
